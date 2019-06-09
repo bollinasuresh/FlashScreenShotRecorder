@@ -1,4 +1,4 @@
-package com.trishana.flash.testing;
+package com.trishana.examples.Flash;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
