@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="48293" started-at="2019-06-09T05:44:09Z" finished-at="2019-06-09T05:44:58Z">
+  <suite name="Default suite" duration-ms="34294" started-at="2019-06-28T19:11:11Z" finished-at="2019-06-28T19:11:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="48293" started-at="2019-06-09T05:44:09Z" finished-at="2019-06-09T05:44:58Z">
-      <class name="com.trishana.examples.Recording.DatePicker">
-        <test-method status="PASS" signature="createBrowser()[pri:0, instance:com.trishana.examples.Recording.DatePicker@4501b7af]" name="createBrowser" is-config="true" duration-ms="20050" started-at="2019-06-09T05:44:09Z" finished-at="2019-06-09T05:44:29Z">
+    <test name="Default test" duration-ms="34294" started-at="2019-06-28T19:11:11Z" finished-at="2019-06-28T19:11:45Z">
+      <class name="com.trishana.examples.Flash.FlashYoutubeTest">
+        <test-method status="PASS" signature="createBrowserDriver()[pri:0, instance:com.trishana.examples.Flash.FlashYoutubeTest@6f7fd0e6]" name="createBrowserDriver" is-config="true" duration-ms="2146" started-at="2019-06-28T19:11:11Z" finished-at="2019-06-28T19:11:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createBrowser -->
-        <test-method status="PASS" signature="dateRecordingTest()[pri:0, instance:com.trishana.examples.Recording.DatePicker@4501b7af]" name="dateRecordingTest" duration-ms="27580" started-at="2019-06-09T05:44:29Z" finished-at="2019-06-09T05:44:57Z">
+        </test-method> <!-- createBrowserDriver -->
+        <test-method status="PASS" signature="testYoutube()[pri:0, instance:com.trishana.examples.Flash.FlashYoutubeTest@6f7fd0e6]" name="testYoutube" duration-ms="31481" started-at="2019-06-28T19:11:13Z" finished-at="2019-06-28T19:11:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dateRecordingTest -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.trishana.examples.Recording.DatePicker@4501b7af]" name="close" is-config="true" duration-ms="639" started-at="2019-06-09T05:44:57Z" finished-at="2019-06-09T05:44:58Z">
+        </test-method> <!-- testYoutube -->
+        <test-method status="PASS" signature="closeBrowserDriver()[pri:0, instance:com.trishana.examples.Flash.FlashYoutubeTest@6f7fd0e6]" name="closeBrowserDriver" is-config="true" duration-ms="643" started-at="2019-06-28T19:11:45Z" finished-at="2019-06-28T19:11:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- com.trishana.examples.Recording.DatePicker -->
+        </test-method> <!-- closeBrowserDriver -->
+      </class> <!-- com.trishana.examples.Flash.FlashYoutubeTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

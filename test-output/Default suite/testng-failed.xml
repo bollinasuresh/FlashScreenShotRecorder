@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.trishana.examples.Recording.DatePicker">
+      <class name="com.trishana.examples.Flash.FlashYoutubeTest">
         <methods>
-          <include name="createBrowser"/>
-          <include name="dateRecordingTest"/>
-          <include name="close"/>
+          <include name="closeBrowserDriver"/>
+          <include name="testYoutube"/>
+          <include name="createBrowserDriver"/>
         </methods>
-      </class> <!-- com.trishana.examples.Recording.DatePicker -->
+      </class> <!-- com.trishana.examples.Flash.FlashYoutubeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
