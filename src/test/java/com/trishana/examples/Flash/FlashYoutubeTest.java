@@ -2,7 +2,6 @@ package com.trishana.examples.Flash;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.sikuli.script.FindFailed;
 import org.sikuli.script.Pattern;
 import org.sikuli.script.Screen;
@@ -32,6 +31,10 @@ public class FlashYoutubeTest {
 		driver.get("https://www.youtube.com/watch?v=rDoFiOjoC2Y");
 
 		Screen screen = new Screen();
+		
+		Pattern mute = new Pattern(System.getProperty("user.dir") + "\\mute.png");
+		screen.wait(mute, 2000);
+		screen.click();
 
 		Pattern pause = new Pattern(System.getProperty("user.dir") + "\\pause.png");
 		screen.wait(pause, 2000);
@@ -42,6 +45,11 @@ public class FlashYoutubeTest {
 		screen.wait(play, 2000);
 		screen.click();
 		screen.click();
+		
+		/*
+		 * mute = new Pattern(System.getProperty("user.dir") + "\\mute.png");
+		 * screen.wait(mute, 2000); screen.click();
+		 */
 
 	}
 
